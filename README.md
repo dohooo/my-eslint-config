@@ -56,6 +56,7 @@ Create `.vscode/settings.json`
 ## Check Also
 
 - [dohooo/eslint-config](https://github.com/dohooo/eslint-config) - My ESLint config
+- [dohooo/vscode-settings](https://github.com/dohooo/vscode-settings) - My VS Code settings
 - [dohooo/ts-starter](https://github.com/dohooo/ts-starter) - My starter template for TypeScript library
 
 ## License
