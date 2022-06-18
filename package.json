@@ -1,0 +1,19 @@
+{
+  "name": "@dohooo/eslint-config-monorepo",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@7.1.0",
+  "author": "Dohooo <zhaodonghao586@outlook.com> (https://github.com/dohooo/)",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "prepare": "pnpm -r run stub",
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
+  },
+  "devDependencies": {
+    "@dohooo/eslint-config": "*",
+    "bumpp": "^7.1.1",
+    "eslint": "^8.16.0",
+    "typescript": "^4.7.2"
+  }
+}
