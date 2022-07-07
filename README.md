@@ -53,6 +53,10 @@ Create `.vscode/settings.json`
 }
 ```
 
+## Tips
+
+- [Auto fix](https://eslint.org/docs/latest/rules/max-len) can't work with eslint. (issue)(https://github.com/eslint/eslint/issues/11325)
+
 ## Check Also
 
 - [dohooo/eslint-config](https://github.com/dohooo/eslint-config) - My ESLint config
