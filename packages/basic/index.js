@@ -33,8 +33,13 @@ module.exports = {
   plugins: [
     'html',
     'unicorn',
+    'file-progress',
   ],
   settings: {
+    'progress': {
+      hide: false,
+      successMessage: 'Lint done...',
+    },
     'import/resolver': {
       node: { extensions: ['.js', '.mjs'] },
     },
@@ -175,6 +180,9 @@ module.exports = {
     },
   ],
   rules: {
+    // file-progress
+    'file-progress/activate': 'warn',
+    
     // import
     'import/order': 'error',
     'import/first': 'error',
