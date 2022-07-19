@@ -182,7 +182,7 @@ module.exports = {
   rules: {
     // file-progress
     'file-progress/activate': 'warn',
-    
+
     // import
     'import/order': 'error',
     'import/first': 'error',
