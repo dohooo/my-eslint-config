@@ -1,6 +1,6 @@
 {
   "name": "@dohooo/eslint-config",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Dohooo's ESLint config",
   "author": "Dohooo <zhaodonghao586@outlook.com> (https://github.com/dohooo/)",
   "license": "MIT",
