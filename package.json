@@ -11,7 +11,7 @@
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "devDependencies": {
-    "@dohooo/eslint-config": "*",
+    "@dohooo/eslint-config": "workspace:*",
     "bumpp": "^7.1.1",
     "eslint": "^8.16.0",
     "typescript": "^4.7.2"

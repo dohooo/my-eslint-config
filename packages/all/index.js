@@ -1,5 +1,5 @@
 module.exports = {
   extends: [
-    '@dohooo/eslint-config-react',
+    "@dohooo/eslint-config-react",
   ],
-}
+};
