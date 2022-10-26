@@ -3,7 +3,7 @@
   "version": "0.0.7",
   "private": true,
   "packageManager": "pnpm@7.1.0",
-  "author": "Dohooo <zhaodonghao586@outlook.com> (https://github.com/dohooo/)",
+  "author": "東澔 Caspian <zhaodonghao586@outlook.com> (https://github.com/dohooo/)",
   "license": "MIT",
   "scripts": {
     "lint": "eslint .",
